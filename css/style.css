@@ -326,7 +326,7 @@ Footer
 	font-size: 34px;
 }
 .owl-carousel.owl-theme {
-    margin: auto 17%;
+    /*margin: auto 17%;*/
     width: 100%;
 }
 .latesnews-content ul {
@@ -392,5 +392,5 @@ header{
 }
 .contact-us{
 	
-	background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("../assets/unisonimagesforslider/unison3.jpg") no-repeat scroll 0 0 / 100% auto;
+	background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("../assets/unisonimagesforslider/unison3.jpg") no-repeat scroll 0 0 / 100% 100%;
 }

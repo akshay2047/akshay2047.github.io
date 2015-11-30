@@ -2,7 +2,7 @@
     /* TOP BAR ELEMENTS */    
      /* HOME */
      .owl-carousel.owl-theme {
-    	margin: auto 1%;
+    	/*margin: auto 1%;*/
 	}
 	.intro {
 		margin-top: 40%;
@@ -55,7 +55,7 @@
 		padding-bottom: 33px;
 	}
 	.copyright {
-		width: 100%;
+		
 		padding-top: 33px;
 		padding-bottom: 33px;
 	}

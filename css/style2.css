@@ -2047,10 +2047,10 @@ width: -webkit-calc(100% / 4);
 	color: #FFF;
 	padding-bottom: 100px;
 }
-.about-us .row {
+/*.about-us .row {
 	margin-left: -15px;
 	margin-right: -15px;
-}
+}*/
 .about-us .big-intro {
 	text-align: right;
 	font-weight: 300;
@@ -2657,7 +2657,6 @@ width: -webkit-calc(100% / 4);
 	-webkit-box-shadow: none;
 	box-shadow: none;
 	display: block;
-	z-index: 5;
 	height: 384px;
 }
 .feedback-box .message {
@@ -4534,7 +4533,7 @@ body.custom-background {
 		padding-bottom: 33px;
 	}
 	.copyright {
-		width: 100%;
+		
 		padding-top: 33px;
 		padding-bottom: 33px;
 	}
@@ -4573,7 +4572,9 @@ body.custom-background {
     .header-content-wrap{
 		padding: 225px 0 150px;
 	}
-
+	.navbar-brand span{
+		font-size: 30px!important;
+	}
 }
 @media (max-width: 767px) {
 
@@ -4694,6 +4695,15 @@ body.custom-background {
 		line-height: 8vh;
 		font-size: 6.5vw;
 	}
+	.carousel1,.carousel1 .carousel-inner{
+		height: 100%!important;
+	}
+	header{
+		height: auto!important;
+	}
+	.carousel1 .carousel-inner .item img{
+		height: 100%!important;
+	}
     .header-content-wrap {
     	padding-top: 30%;
     	height: auto!important;
@@ -4767,7 +4777,15 @@ body.custom-background {
 		line-height: 6vh;
 		font-size: 6.5vw;
 	}
-	
+	.carousel1,.carousel1 .carousel-inner{
+		height: 100%!important;
+	}
+	header{
+		height: auto!important;
+	}
+	.carousel1 .carousel-inner .item img{
+		height: 100%!important;
+	}
 	.header-content-wrap {
 	    padding-top: 40%;
 	    height: auto!important;
