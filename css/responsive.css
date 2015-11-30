@@ -146,13 +146,16 @@
 		margin-right: 0;
 	}
 	.owl-carousel.owl-theme {
-    	margin: auto 2%;
+    	/*margin: auto 2%;*/
 	}
 	.team-member .details{
 		height: 100%;
 	}
 	.products{
 		padding-bottom: 0;
+	}
+	.navbar-brand span{
+		font-size: 25px!important;
 	}
 }
 
@@ -166,7 +169,7 @@
 		display: block;
 	}
 	.owl-carousel.owl-theme {
-    margin: auto 2%;
+    /*margin: auto 2%;*/
 	}
 	.team-member .details{
 		height: 100%;

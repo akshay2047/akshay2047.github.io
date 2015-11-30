@@ -1447,6 +1447,7 @@ object {
 }
 .navbar-inverse .navbar-nav>li:last-child {
 	margin-right: 0 !important;
+	border-bottom: none;
 }
 .navbar-inverse .navbar-nav>li>a {
 	color: #404040;
